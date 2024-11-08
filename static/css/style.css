@@ -32,6 +32,11 @@
     font-size: 30px;
 }
 
+.main-right a{
+    text-decoration: none;
+    color: black;
+}
+
 .gallery-div{
     float: left;
     width: 100%;
@@ -83,5 +88,80 @@
 }
 
 #call{
+    text-align: center;
+}
+
+.details-div{
+    float: left;
+    width: 100%;
+    background-color: rgba(35, 34, 34, 0.838);
+    padding: 2% 0% 2% 0%;
+}
+
+.sub-details{
+    float: left;
+    width: 20%;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    margin: 0% 0% 0% 10%;
+    text-align: center;
+    height: 250px;
+}
+.sub-details h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.sub-details p{
+    font-size: 22px;
+    text-align: start;
+    margin: 0% 0% 0% 5%;
+}
+
+.sub-details input, .sub-details select{
+    float: left;
+    width: 90%;
+    font-size: 22px;
+    background-color: transparent;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    margin: 5% 0% 0% 5%;
+}
+
+.sub-details button{
+    float: left;
+    width: 50%;
+    font-size: 22px;
+    margin: 5% 0% 0% 5%;
+}
+
+.footer-div{
+    float: left;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+}
+
+.sub-details option{
+    background-color: black;
+}
+
+.crud-div{
+    float: left;
+    width: 40%;
+    border: 4px solid black;
+    margin: 10% 0% 0% 30%;
+}
+
+.crud-div a{
+    float: left;
+    width: 40%;
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    text-transform: uppercase;
+    margin: 2% 0% 2% 5%;
     text-align: center;
 }

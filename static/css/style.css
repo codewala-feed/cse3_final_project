@@ -165,3 +165,36 @@
     margin: 2% 0% 2% 5%;
     text-align: center;
 }
+
+.register-div, .update-div, .delete-div{
+    float: left;
+    width: 40%;
+    margin: 2% 0% 0%  30%;
+}
+
+.register-div input, .register-div button,.update-div input, .update-div select, .update-div button, .delete-div input, .delete-div button {
+    float: left;
+    width: 90%;
+    font-size: 25px;
+    margin: 3% 0% 0% 5%;
+    border: 2px solid black;
+
+}
+
+.camp-div{
+    float: left;
+    width: 75%;
+    margin: 2% 0% 3% 12%;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 10px 20px 90px black;
+    height: 550px;
+}
+
+.camp-div iframe{
+    float: left;
+    width: 96%;
+    height: 380px;
+    border: 8px solid black;
+    margin: 0% 0% 0% 1.5%;
+}
